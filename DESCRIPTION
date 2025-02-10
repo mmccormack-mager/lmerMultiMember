@@ -15,7 +15,7 @@ License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Imports: Matrix, lme4, methods
+Imports: Matrix, lme4, methods, lmerTest
 Suggests: 
     knitr,
     rmarkdown,
@@ -26,7 +26,6 @@ Suggests:
     kableExtra,
     sjPlot,
     glmmTMB,
-    lmerTest,
     lmtest,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
